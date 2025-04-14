@@ -14,9 +14,11 @@ Once libraries are mod and no other changes for libs:
 
 
 ###Method to update
-+ I just ran it and it gave me an ioutil error, I swapped the depcrecated ioutil with os.
-+ Went through requirements and found things that already there, like it's already printing and testing, already waiting and sleeping for 15 seconds
-+ I added a time check for each function run to check time now and see whenever duration is more than ms500 it should not be printed.
++I ran it and got an ioutil error, so I replaced the deprecated ioutil with os.
+
++I reviewed the requirements and found some items already implemented, such as printing, testing, and a 15-second sleep.
+
++I added a time check for each function execution. If the duration exceeds 500ms, it will be excluded from print.
 
 ###Notes/FAQ
 + Did I use AI?
@@ -33,4 +35,4 @@ I know all the structure for go lang, specially for kube client and other main l
 
 ### What are my strengths?
 
-Kubernetes, OpenShift, Linux, Bash,Controllers, IoC , ArgoCD, ArgoWorkflow, AWS, AI/ML Agents ...etc
+Kubernetes, OpenShift, Linux, Bash,Controllers, IaC , ArgoCD, ArgoWorkflow, AWS, AI/ML Agents ...etc
